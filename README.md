@@ -16,10 +16,12 @@ n. (Hack)人名；(英、西、芬、阿拉伯、毛里求)哈克；(法)阿克
 ```
 
 #Setup
-- $ git clone https://github.com/futantan/Dic-scraper.git
-- pip install requests BeautifulSoup4
-- chmod a+x dic.py
-- ln dic.py /usr/local/bin/dic
+```
+git clone https://github.com/futantan/Dic-scraper.git
+pip install requests BeautifulSoup4
+chmod a+x dic.py
+ln dic.py /usr/local/bin/dic
+```
 
 #update
 ```

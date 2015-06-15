@@ -37,7 +37,7 @@ git pull
 
 #关于我
 - [我的博客](http://www.futantan.com)
-- Email: [luckytantanfu@gmail.com](luckytantanfu@gmail.com)
+- Email: [luckytantanfu@gmail.com](mailto:luckytantanfu@gmail.com)
 
 #License
 ```

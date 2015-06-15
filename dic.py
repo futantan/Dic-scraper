@@ -5,9 +5,11 @@ import sys
 
 
 def printDic(words):
-    response = requests.get("http://dict.youdao.com/search?", params=words)
     try:
+        response = requests.get("http://dict.youdao.com/search?", params=words)
         content = bs4.BeautifulSoup(response.text).find("div", class_="trans-container").ul.find_all('li')
+    except requests.exceptions.ConnectionError:
+        print "Network error"
     except AttributeError:
         print "No result"
     else:

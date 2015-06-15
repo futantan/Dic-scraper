@@ -19,8 +19,12 @@ n. (Hack)人名；(英、西、芬、阿拉伯、毛里求)哈克；(法)阿克
 
 - pip install requests BeautifulSoup4
 - chmod a+x dic.py
-- cp dic.py /usr/local/bin/dic
+- ln dic.py /usr/local/bin/dic
 
+#update
+```
+git pull
+```
 
 #Change Log
 #0.1

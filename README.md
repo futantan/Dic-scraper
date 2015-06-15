@@ -1,12 +1,10 @@
 # Dic-scraper
----
 
 最简单的linux查词命令。
 
 ```
 $> dic hello world
 你好世界
-
 ```
 
 ```

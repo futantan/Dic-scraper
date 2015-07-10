@@ -28,6 +28,9 @@ ln dic.py /usr/local/bin/dic
 git pull
 ```
 
+#Todo
+- [ ] 支持中文
+
 #Change Log
 #0.1
 - 实现有道词典英文单词(词组)翻译简单抓取
